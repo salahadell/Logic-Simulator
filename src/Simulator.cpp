@@ -114,7 +114,7 @@ void Simulator::load(string filename)
 		else if (s == "SIM") {
 			sim();
 		}
-		else {
+		else { // ADD OR XOR ....
 			string in1, in2, out1;
 			Gate* p = addGate(s);
 			f1 >> in1 >> in2 >> out1;
