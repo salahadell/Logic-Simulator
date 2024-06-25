@@ -1,6 +1,6 @@
 # Logic-Simulator
 
-GateSimulator is a simple C++ application that simulates basic logic gates (AND, OR, NAND, XOR) using nodes and gates. The application reads an input file to set up nodes, gates, and simulate the logic.
+Logic Simulator is a simple C++ application that simulates basic logic gates (AND, OR, NAND, XOR) using nodes and gates. The application reads an input file to set up nodes, gates, and simulate the logic.
 
 ## Project Structure
 Logic-Simulator/
@@ -8,21 +8,24 @@ Logic-Simulator/
 ├── CMakeLists.txt
 
 ├── include
-   └── Node.h
-   └── Gate.h
-   └── Simulator.h
 
+       └── Node.h
+       └── Gate.h
+       └── Simulator.h
+    
 ├── src
-   └── main.cpp
-   └── Node.cpp
-   └── Gate.cpp
-   └── Simulator.cpp
+
+       └── CMakeLists.txt
+       └── main.cpp
+       └── Node.cpp
+       └── Gate.cpp
+       └── Simulator.cpp
 
 ## Prerequisites
-
+```sh
 - CMake (version 3.10 or higher)
 - A C++ compiler (e.g., g++)
-
+```
 ## Building the Project
    ```sh
    git clone <repository_url>
@@ -31,7 +34,7 @@ Logic-Simulator/
   ```
 ## Running the Program
 ```sh
-./GateSimulator <input file>
+./Logic-Simulator <input file>
 ```
 The program will simulate the logic gates as defined in the input file and print the results. The program will wait for the user to press Enter before closing.
 
@@ -58,3 +61,6 @@ SIM
 OUT E
 OUT ALL
 ```
+## Output Example
+![Logic Simulator Output Example](https://github.com/salahadell/Logic-Simulator/blob/main/Test-output-sample.png)
+
