@@ -1,0 +1,5 @@
+D:/Logic-Simulator/build/CMakeFiles/INSTALL.dir
+D:/Logic-Simulator/build/CMakeFiles/ALL_BUILD.dir
+D:/Logic-Simulator/build/CMakeFiles/ZERO_CHECK.dir
+D:/Logic-Simulator/build/src/CMakeFiles/LogicSimulator.dir
+D:/Logic-Simulator/build/src/CMakeFiles/INSTALL.dir

@@ -1,0 +1,10 @@
+^D:\LOGIC-SIMULATOR\BUILD\CMAKEFILES\D09106378BFFA2554A2FD1C5E3ACFC68\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Logic-Simulator -BD:/Logic-Simulator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Logic-Simulator/build/LogicSimulator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
